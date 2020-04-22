@@ -3,27 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Muli:wght@200&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Victorya</title>
   </head>
   <body>
-    <header>
-      <h1>Victorya</h1>
-      <nav>
-        <ul>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">Package</a></li>
-          <li><a href="#">About us</a></li>
-          <li><a href="#">Contact us</a></li>
-        </ul>
-      </nav>
-      <p>Good food choices are good investments.</p>
-      <p>
+    <header class="header">
+      <div class="h-nav__wrapper">
+        <h1 class="header__title">Victorya</h1>
+        <nav class="header__nav">
+          <ul class="nav__list">
+            <li class="nav__item nav__item--active"><a href="#">Menu</a></li>
+            <li class="nav__item"><a href="#">Package</a></li>
+            <li class="nav__item"><a href="#">About us</a></li>
+            <li class="nav__item"><a href="#">Contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+      <p class="header__desc-main">Good food choices are good investments.</p>
+      <p class="header__desc-sub">
         There is a powerful need for symbolism, and that means the architecture
         must have something that appeals to the human heart.
       </p>
-      <button>Order Now</button>
-      <p>Watch our story</p>
-      <button>Order Now</button>
+      <div class="h-btns__wrapper">
+        <button class="header__btn1">Order Now</button>
+        <p class="header__btn2-desc">Watch our story</p>
+        <button class="header__btn2" aria-label="watch our story"></button>
+      </div>
     </header>
     <section>
       <h2>

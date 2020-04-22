@@ -1,0 +1,149 @@
+html {
+  height: 100vmin;
+  font-size: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.header {
+  background: url("../images/bg.png");
+  background-size: 100% 100%;
+  padding-top: 3.2rem;
+  padding-bottom: 8.38rem;
+}
+
+.h-nav__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10%;
+}
+
+.header__title {
+  opacity: 0.78;
+  color: #452268;
+  font-family: "Satisfy";
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4rem;
+  flex-grow: 0.2;
+}
+
+.header__nav {
+  width: 20rem;
+  height: 1.15rem;
+  align-self: center;
+  /* opacity: -1; */
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 18.88rem;
+}
+.nav__item {
+  list-style-type: none;
+}
+.nav__item > a {
+  text-decoration: none;
+  color: #abadae;
+  font-family: Muli;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+.nav__item--active > a {
+  color: #0a4065;
+  font-family: "Muli - Bold";
+  font-weight: 700;
+}
+
+.header__desc-main {
+  width: 52%;
+  /* opacity: -1; */
+  color: #255a7e;
+  font-family: Muli;
+  font-size: 3.15rem;
+  font-weight: 300;
+  line-height: 3.72rem;
+  margin-left: 10%;
+  margin-top: 13.5%;
+}
+
+.header__desc-sub {
+  width: 43%;
+  opacity: 0.71;
+  color: #0c3653;
+  font-family: Muli;
+  font-size: 0.88rem;
+  font-weight: 600;
+  line-height: 1.44rem;
+  margin-left: 10%;
+  margin-top: 1rem;
+}
+
+.h-btns__wrapper {
+  display: flex;
+  margin-left: 10%;
+  height: 3.8rem;
+  margin-top: 2.1rem;
+}
+
+.header__btn1 {
+  width: 11.3rem;
+  height: 3.88rem;
+  box-shadow: 0 15px 29px rgba(249, 129, 105, 0.68);
+  background-color: #f98169;
+  color: #ffffff;
+  font-family: Muli;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 3.88rem;
+}
+.header__btn2-desc {
+  opacity: 0.51;
+  color: #0b314b;
+  font-family: Muli;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 3.88rem;
+  margin: 0 2.22rem;
+}
+.header__btn2 {
+  width: 3.88rem;
+  height: 3.88rem;
+  box-shadow: 0 15px 29px rgba(249, 129, 105, 0.68);
+  border-radius: 50%;
+  background-color: #f98169;
+}
+@media (max-width: 1200px) {
+  html {
+    font-size: 14px;
+  }
+  .header__desc-main {
+    width: 73%;
+  }
+  .header__desc-sub {
+    width: 73%;
+  }
+  .header {
+    background: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0),
+        rgb(245, 242, 235)
+      ),
+      url(../images/bg.png);
+    background-size: 100% 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 10px;
+  }
+}
