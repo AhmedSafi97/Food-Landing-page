@@ -5,14 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
-      rel="stylesheet"
-    />
-    <link
       href="https://fonts.googleapis.com/css2?family=Muli:wght@200&family=Satisfy&display=swap"
       rel="stylesheet"
     />
-
+    <link
+      href="//db.onlinewebfonts.com/c/7dca09e227fdfe16908cebb4244589e4?family=Georgia"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="//db.onlinewebfonts.com/c/1608be971447a23d77f7db9239716d51?family=Painter"
+      rel="stylesheet"
+      type="text/css"
+    />
     <title>Victorya</title>
   </head>
   <body>
@@ -39,49 +44,77 @@
         <button class="header__btn2" aria-label="watch our story"></button>
       </div>
     </header>
-    <section>
-      <h2>
-        The best comfort food will always be greens, cornbread, and fried
-        chicken.
-      </h2>
-      <p>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-        clita kasd gubergren,
-      </p>
-      <button>Know More About Us</button>
-      <img src="./assets/images/ribs.png" alt="ribs" />
-    </section>
-    <section>
-      <h2>
-        The best comfort food will always be greens, cornbread, and fried
-        chicken.
-      </h2>
-      <p>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-        clita kasd gubergren,
-      </p>
-      <button>Know More About Us</button>
-      <img src="./assets/images/pasta.png" alt="pasta" />
-      <img src="./assets/images/panckaes.png" alt="panckaes" />
-      <img src="./assets/images/eat-and-cheers.png" alt="eat and cheers" />
-      <img src="./assets/images/potato-wedges.png" alt="potato-wedges" />
-    </section>
-    <section>
-      <h2>
-        When a man's stomach is full it makes no difference whether he is rich
-        or poor.
-      </h2>
-      <p>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-        eirmod tempor invidunt ut labore et dolore magna.
-      </p>
-      <button>Watch our story</button>
-      <p>Watch our story</p>
-    </section>
+    <div class="ribs-meals__wrapper">
+      <section class="grilled-ribs">
+        <div class="ribs-info-wrapper">
+          <h2 class="grilled-ribs__title">
+            The best comfort food will always be greens, cornbread, and fried
+            chicken.
+          </h2>
+          <p class="grilled-ribs__desc">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+            et ea rebum. Stet clita kasd gubergren,
+          </p>
+          <button class="grilled-ribs__btn">Know More About Us</button>
+        </div>
+        <img
+          src="./assets/images/ribs.png"
+          alt="ribs"
+          class="grilled-ribs__picture"
+        />
+      </section>
+      <section class="four-meals">
+        <div>
+          <h2 class="four-meals__title">
+            The best comfort food will always be greens, cornbread, and fried
+            chicken.
+          </h2>
+          <p class="four-meals__desc">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+            et ea rebum. Stet clita kasd gubergren,
+          </p>
+          <button class="four-meals__btn">Know More About Us</button>
+        </div>
+        <div class="four-meals__grid">
+          <img
+            src="./assets/images/pasta.png"
+            alt="pasta"
+            class="four-meals__item1"
+          />
+          <img
+            src="./assets/images/panckaes.png"
+            alt="panckaes"
+            class="four-meals__item2"
+          />
+          <img
+            src="./assets/images/eat-and-cheers.png"
+            alt="eat and cheers"
+            class="four-meals__item3"
+          />
+          <img
+            src="./assets/images/potato-wedges.png"
+            alt="potato-wedges"
+            class="four-meals__item4"
+          />
+        </div>
+      </section>
+      <section class="story">
+        <h2 class="story__title">
+          When a man's stomach is full it makes no difference whether he is rich
+          or poor.
+        </h2>
+        <p class="story__desc">
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna.
+        </p>
+        <button class="story__btn" aria-label="Watch our story"></button>
+        <p class="story__btn-desc">Watch our story</p>
+      </section>
+    </div>
     <main>
       <section>
         <h2>Explore Our Foods</h2>
