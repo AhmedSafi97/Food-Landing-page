@@ -265,7 +265,8 @@
   margin-top: 7.5625rem;
   padding: 5.3125rem 10.3125rem 3.0625rem 3.9375rem;
   text-align: center;
-  background: linear-gradient(to right, #0a4065, transparent), url(../images/bg3.png);
+  background: linear-gradient(to right, #0a4065, transparent),
+    url(../images/bg3.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -330,6 +331,119 @@
   letter-spacing: 0.138em;
   line-height: 4.4375em;
   margin: auto;
+}
+.explore {
+  padding-top: 5.8125em;
+}
+.explore__title {
+  color: #0c3653;
+  font-family: Georgia;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.27em;
+  text-align: center;
+}
+.explore__desc {
+  color: #aeb2b4;
+  font-family: Muli;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.625em;
+  margin-top: 2.0625em;
+  margin-bottom: 1.6875em;
+  text-align: center;
+}
+.explore__btn {
+  width: 14.16em;
+  height: 3.88em;
+  display: block;
+  margin: 5.6em auto 0 auto;
+  box-shadow: 0 15px 29px rgba(249, 129, 105, 0.68);
+  background-color: #f98169;
+  color: #ffffff;
+  font-family: Muli;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 3.94em;
+  cursor: pointer;
+}
+.explore__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 20.1875rem);
+  grid-row-gap: 3.3125rem;
+  grid-column-gap: 2rem;
+  justify-content: center;
+}
+
+.grid__card {
+  list-style: none;
+  width: 20.1875rem;
+  height: 22.75rem;
+  box-shadow: 0 17px 16px rgba(235, 241, 245, 0.55);
+  border-radius: 13px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+}
+.card-info__wrapper {
+  padding: 1.625rem 1.25rem;
+}
+.h2-p-info__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card__title {
+  color: #0c3653;
+  font-family: Georgia;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 2.55em;
+}
+.card__price {
+  color: #f98169;
+  font-family: Georgia;
+  font-size: 1.5625rem;
+  font-weight: 700;
+  line-height: 1.84em;
+}
+.card__desc {
+  color: #aeb2b4;
+  font-family: Muli;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.375em;
+  margin-top: 0.9375em;
+}
+.card__img {
+  width: 20.1875rem;
+  height: 14.125rem;
+  border-radius: 13px 13px 0 0;
+  order: -1;
+}
+.popular{
+  padding-top: 6.125rem;
+}
+.popular__title {
+  color: #0c3653;
+  font-family: Georgia;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.27em;
+  text-align: center;
+  margin-bottom: 1.38em;
+}
+.popular__wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 20rem);
+  justify-content: center;
+  grid-gap: 1rem;
+}
+.popular__img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 7px;
 }
 @media (min-width: 1800px) {
   html {
