@@ -20,7 +20,7 @@
 .header__title {
   opacity: 0.78;
   color: #452268;
-  font-family: "Painter";
+  font-family: "Rock Salt", cursive;
   font-size: 2.25rem;
   font-weight: 400;
   line-height: 1.97em;
@@ -150,7 +150,7 @@
   justify-content: space-evenly;
 }
 .grilled-ribs__title {
-  font-family: Georgia;
+  font-family: "Slabo 27px", serif;
   font-size: 2.25rem;
   font-weight: 700;
   line-height: 1.28em;
@@ -194,7 +194,7 @@
   margin-top: 0.8125rem;
 }
 .four-meals__title {
-  font-family: Georgia;
+  font-family: "Slabo 27px", serif;
   font-size: 2.25rem;
   font-weight: 700;
   line-height: 1.28em;
@@ -276,7 +276,7 @@
 .story__title {
   max-width: 29.527em;
   color: #ffffff;
-  font-family: Georgia;
+  font-family: "Slabo 27px", serif;
   font-size: 2.25rem;
   font-weight: 700;
   line-height: 1.27em;
@@ -337,7 +337,7 @@
 }
 .explore__title {
   color: #0c3653;
-  font-family: Georgia;
+  font-family: "Slabo 27px", serif;
   font-size: 2.25rem;
   font-weight: 700;
   line-height: 1.27em;
@@ -398,14 +398,14 @@
 }
 .card__title {
   color: #0c3653;
-  font-family: Georgia;
+  font-family: "Slabo 27px", serif;
   font-size: 1.125rem;
   font-weight: 700;
   line-height: 2.55em;
 }
 .card__price {
   color: #f98169;
-  font-family: Georgia;
+  font-family: "Slabo 27px", serif;
   font-size: 1.5625rem;
   font-weight: 700;
   line-height: 1.84em;
@@ -429,7 +429,7 @@
 }
 .popular__title {
   color: #0c3653;
-  font-family: Georgia;
+  font-family: "Slabo 27px", serif;
   font-size: 2.25rem;
   font-weight: 700;
   line-height: 1.27em;
@@ -461,7 +461,7 @@
 }
 .footer__title {
   color: #0c3653;
-  font-family: Georgia;
+  font-family: "Slabo 27px", serif;
   font-size: 2.25rem;
   font-weight: 700;
   line-height: 1.27em;
@@ -510,7 +510,7 @@
   border-top: 3px solid #f9fbfb;
   border-bottom: 3px solid #f9fbfb;
   margin-top: 11.6875rem;
-  max-width: 42.375rem;
+  max-width: 44.375rem;
   margin-left: 10.3%;
   margin-right: 10.3%;
   padding: 0.5rem 0 0.5rem 2rem;
@@ -518,7 +518,7 @@
 .footer_logo {
   opacity: 0.78;
   color: #452268;
-  font-family: "Painter";
+  font-family: "Rock Salt", cursive;
   font-size: 2.25rem;
   font-weight: 400;
   line-height: 1.97em;
