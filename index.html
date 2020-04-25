@@ -18,6 +18,10 @@
       rel="stylesheet"
       type="text/css"
     />
+    <script
+      src="https://kit.fontawesome.com/0a332a9d58.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Victorya</title>
   </head>
   <body>
@@ -252,32 +256,59 @@
         </div>
       </section>
     </main>
-    <footer>
-      <p>Want to get the latest Updates?</p>
-      <form>
-        <input
-          type="email"
-          placeholder="example@yourmail.com"
-          aria-label="email"
-        />
-        <button type="submit">Subscribe</button>
-      </form>
-      <a href="#">Victorya</a>
-      <nav>
-        <ul>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">Package</a></li>
-          <li><a href="#">About us</a></li>
-          <li><a href="#">Contact us</a></li>
-        </ul>
-      </nav>
-      <ul>
-        <li><a href="#">facebook</a></li>
-        <li><a href="#">twitter</a></li>
-        <li><a href="#">instagram</a></li>
-        <li><a href="#">linkedin</a></li>
+    <footer class="footer">
+      <div class="h-form-footer__wrapper">
+        <p class="footer__title">Want to get the latest Updates?</p>
+        <form class="footer__form">
+          <input
+            type="email"
+            placeholder="example@yourmail.com"
+            aria-label="email"
+            class="footer__form__input"
+          />
+          <button type="submit" class="footer__form__btn">
+            Subscribe&nbsp;
+          </button>
+        </form>
+      </div>
+      <div class="a-nav-footer__wrapper">
+        <a href="#" class="footer_logo">Victorya</a>
+        <nav class="footer__nav">
+          <ul class="footer__nav__list">
+            <li class="footer__nav__item footer__nav__item--active">
+              <a href="#">Menu</a>
+            </li>
+            <li class="footer__nav__item"><a href="#">Package</a></li>
+            <li class="footer__nav__item"><a href="#">About us</a></li>
+            <li class="footer__nav__item"><a href="#">Contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+      <ul class="footer__subnav">
+        <li class="footer__subnav__item footer__subnav__item--active">
+          <a href="#" aria-label="facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </li>
+        <li class="footer__subnav__item">
+          <a href="#" aria-label="twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="footer__subnav__item">
+          <a href="#" aria-label="instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+        <li class="footer__subnav__item">
+          <a href="#" aria-label="linkedin">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </li>
       </ul>
-      <p>Copyright©Arifur Rahman, 2019. All rights reserved</p>
+      <p class="footer__desc">
+        Copyright&copy;Arifur Rahman, 2019. All rights reserved
+      </p>
     </footer>
   </body>
 </html>
