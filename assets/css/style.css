@@ -334,7 +334,6 @@
 }
 .explore {
   padding-top: 5.8125em;
-  
 }
 .explore__title {
   color: #0c3653;
@@ -376,7 +375,6 @@
   grid-row-gap: 3.3125rem;
   grid-column-gap: 2rem;
   justify-content: center;
-  padding: 0 10.3125rem;
 }
 
 .grid__card {
