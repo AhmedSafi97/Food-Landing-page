@@ -24,6 +24,9 @@
   font-weight: 400;
   line-height: 1.97em;
   margin-right: 3.5em;
+  height: 1.527em;
+  display: flex;
+  align-items: flex-end;
 }
 
 .header__nav {
@@ -286,6 +289,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  border-radius: 13px;
 }
 
 .story__title {
@@ -532,12 +536,14 @@
 .footer_logo {
   opacity: 0.78;
   color: #452268;
-  font-family: "Rock Salt", cursive;
   font-size: 2.25rem;
   font-weight: 400;
   line-height: 1.97em;
   margin-right: 3.5em;
   text-decoration: none;
+  height: 1.527em;
+  display: flex;
+  align-items: flex-end;
 }
 .footer__nav {
   font-size: 1rem;
