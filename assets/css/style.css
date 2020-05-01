@@ -44,6 +44,17 @@
   font-weight: 700;
 }
 
+.btn {
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Muli;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 4em;
+  box-shadow: 0 15px 29px rgba(249, 129, 105, 0.68);
+  background-color: #f98169;
+}
+
 .header {
   background: url("../images/bg.png");
   background-size: 100% 100%;
@@ -95,16 +106,8 @@
 }
 
 .header__btn1 {
-  cursor: pointer;
-  font-size: 1.125rem;
-  color: #ffffff;
-  font-family: Muli;
-  font-weight: 700;
-  line-height: 4em;
   width: 11.3em;
   height: 3.88em;
-  box-shadow: 0 15px 29px rgba(249, 129, 105, 0.68);
-  background-color: #f98169;
 }
 
 .header__btn2-desc {
@@ -118,13 +121,9 @@
 }
 
 .header__btn2 {
-  cursor: pointer;
-  font-size: 1.125rem;
   height: 3.88em;
   width: 3.88em;
-  box-shadow: 0 15px 29px rgba(249, 129, 105, 0.68);
   border-radius: 50%;
-  background-color: #f98169;
 }
 
 .header__btn2 > span {
@@ -177,16 +176,8 @@
   margin-bottom: 2.9375em;
 }
 .grilled-ribs__btn {
-  cursor: pointer;
-  color: #ffffff;
-  font-family: Muli;
-  font-size: 1.125rem;
-  font-weight: 700;
-  line-height: 4em;
   width: 14.2em;
   height: 3.88em;
-  box-shadow: 0 15px 29px rgba(249, 129, 105, 0.68);
-  background-color: #f98169;
 }
 .grilled-ribs__picture {
   width: 30.3125rem;
@@ -218,16 +209,8 @@
   margin-bottom: 2.9375em;
 }
 .four-meals__btn {
-  cursor: pointer;
-  color: #ffffff;
-  font-family: Muli;
-  font-size: 1.125rem;
-  font-weight: 700;
-  line-height: 4em;
   width: 14.2em;
   height: 3.88em;
-  box-shadow: 0 15px 29px rgba(249, 129, 105, 0.68);
-  background-color: #f98169;
 }
 .four-meals__grid {
   font-size: 1rem;
@@ -372,14 +355,6 @@
   height: 3.88em;
   display: block;
   margin: 5.6em auto 0 auto;
-  box-shadow: 0 15px 29px rgba(249, 129, 105, 0.68);
-  background-color: #f98169;
-  color: #ffffff;
-  font-family: Muli;
-  font-size: 1.125rem;
-  font-weight: 700;
-  line-height: 3.94em;
-  cursor: pointer;
 }
 .explore__grid {
   display: grid;
