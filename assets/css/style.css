@@ -1,9 +1,67 @@
+/* || General styles */
+
 * {
   margin: 0;
   padding: 0;
   border: none;
   outline: none;
   box-sizing: border-box;
+}
+
+.title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.27em;
+  color: #0c3653;
+}
+
+/*Stands for description*/
+.desc {
+  font-family: Muli;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.625em;
+}
+
+.nav {
+  font-size: 1rem;
+  width: 22.375em;
+  height: 1.3125em;
+  align-self: center;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.nav li {
+  list-style-type: none;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #abadae;
+  font-family: Muli;
+  font-weight: 600;
+}
+
+.nav .active {
+  color: #0a4065;
+  font-family: "Muli - Bold";
+  font-weight: 700;
+}
+
+.btn {
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Muli;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 4em;
+  box-shadow: 0 15px 29px rgba(249, 129, 105, 0.68);
+  background-color: #f98169;
 }
 
 .header {
@@ -19,8 +77,6 @@
 
 .header__title {
   opacity: 0.78;
-  color: #452268;
-  font-size: 2.25rem;
   font-weight: 400;
   line-height: 1.97em;
   margin-right: 3.5em;
@@ -29,39 +85,8 @@
   align-items: flex-end;
 }
 
-.header__nav {
-  font-size: 1rem;
-  width: 22.375em;
-  height: 1.3125em;
-  align-self: center;
-}
-
-.nav__list {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.nav__item {
-  list-style-type: none;
-}
-
-.nav__item > a {
-  text-decoration: none;
-  color: #abadae;
-  font-family: Muli;
-  font-weight: 600;
-}
-
-.nav__item--active > a {
-  color: #0a4065;
-  font-family: "Muli - Bold";
-  font-weight: 700;
-}
-
 .header__desc-main {
   color: #255a7e;
-  font-family: Muli;
   font-size: 3.5625rem;
   font-weight: 300;
   line-height: 1.175em;
@@ -72,10 +97,6 @@
 
 .header__desc-sub {
   color: #0c3653;
-  font-family: Muli;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.625em;
   opacity: 0.71;
   width: 37.2em;
   margin-top: 1.1875em;
@@ -88,36 +109,22 @@
 }
 
 .header__btn1 {
-  cursor: pointer;
-  font-size: 1.125rem;
-  color: #ffffff;
-  font-family: Muli;
-  font-weight: 700;
-  line-height: 4em;
   width: 11.3em;
   height: 3.88em;
-  box-shadow: 0 15px 29px rgba(249, 129, 105, 0.68);
-  background-color: #f98169;
 }
 
 .header__btn2-desc {
   font-size: 1.125rem;
   opacity: 0.51;
   color: #0b314b;
-  font-family: Muli;
-  font-weight: 600;
   line-height: 3.88em;
   margin: 0 2.22em;
 }
 
 .header__btn2 {
-  cursor: pointer;
-  font-size: 1.125rem;
   height: 3.88em;
   width: 3.88em;
-  box-shadow: 0 15px 29px rgba(249, 129, 105, 0.68);
   border-radius: 50%;
-  background-color: #f98169;
 }
 
 .header__btn2 > span {
@@ -155,34 +162,19 @@
 }
 .grilled-ribs__title {
   font-family: "Slabo 27px", serif;
-  font-size: 2.25rem;
-  font-weight: 700;
   line-height: 1.28em;
   width: 15.25em;
-  color: #0c3653;
   margin-top: 3.027em;
 }
 .grilled-ribs__desc {
   width: 32.25em;
   color: #8b8e8f;
-  font-family: Muli;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.625em;
   margin-top: 2.0625em;
   margin-bottom: 2.9375em;
 }
 .grilled-ribs__btn {
-  cursor: pointer;
-  color: #ffffff;
-  font-family: Muli;
-  font-size: 1.125rem;
-  font-weight: 700;
-  line-height: 4em;
   width: 14.2em;
   height: 3.88em;
-  box-shadow: 0 15px 29px rgba(249, 129, 105, 0.68);
-  background-color: #f98169;
 }
 .grilled-ribs__picture {
   width: 30.3125rem;
@@ -199,34 +191,19 @@
 }
 .four-meals__title {
   font-family: "Slabo 27px", serif;
-  font-size: 2.25rem;
-  font-weight: 700;
   line-height: 1.28em;
   width: 15.25em;
-  color: #0c3653;
   margin-top: 3.027em;
 }
 .four-meals__desc {
   width: 32.25em;
   color: #8b8e8f;
-  font-family: Muli;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.625em;
   margin-top: 2.0625em;
   margin-bottom: 2.9375em;
 }
 .four-meals__btn {
-  cursor: pointer;
-  color: #ffffff;
-  font-family: Muli;
-  font-size: 1.125rem;
-  font-weight: 700;
-  line-height: 4em;
   width: 14.2em;
   height: 3.88em;
-  box-shadow: 0 15px 29px rgba(249, 129, 105, 0.68);
-  background-color: #f98169;
 }
 .four-meals__grid {
   font-size: 1rem;
@@ -296,20 +273,12 @@
   max-width: 29.527em;
   color: #ffffff;
   font-family: "Slabo 27px", serif;
-  font-size: 2.25rem;
-  font-weight: 700;
-  line-height: 1.27em;
   padding: 0 1.7em;
 }
 .story__desc {
-  /* padding: 1em 7em 1.9375em 20.5%; */
   max-width: 36.0625em;
   margin: 1em auto 1.9375em auto;
   color: #ffffff;
-  font-family: Muli;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.625em;
 }
 .story__btn {
   cursor: pointer;
@@ -343,8 +312,6 @@
 .story__btn-desc {
   width: 12.625em;
   color: #ffffff;
-  font-family: Muli;
-  font-size: 1rem;
   font-weight: 400;
   letter-spacing: 0.138em;
   line-height: 4.4375em;
@@ -354,19 +321,11 @@
   padding-top: 5.8125em;
 }
 .explore__title {
-  color: #0c3653;
   font-family: "Slabo 27px", serif;
-  font-size: 2.25rem;
-  font-weight: 700;
-  line-height: 1.27em;
   text-align: center;
 }
 .explore__desc {
   color: #aeb2b4;
-  font-family: Muli;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.625em;
   margin: auto;
   margin-top: 2.0625em;
   margin-bottom: 1.6875em;
@@ -378,14 +337,6 @@
   height: 3.88em;
   display: block;
   margin: 5.6em auto 0 auto;
-  box-shadow: 0 15px 29px rgba(249, 129, 105, 0.68);
-  background-color: #f98169;
-  color: #ffffff;
-  font-family: Muli;
-  font-size: 1.125rem;
-  font-weight: 700;
-  line-height: 3.94em;
-  cursor: pointer;
 }
 .explore__grid {
   display: grid;
@@ -415,7 +366,6 @@
   justify-content: space-between;
 }
 .card__title {
-  color: #0c3653;
   font-family: "Slabo 27px", serif;
   font-size: 1.125rem;
   font-weight: 700;
@@ -430,9 +380,6 @@
 }
 .card__desc {
   color: #aeb2b4;
-  font-family: Muli;
-  font-size: 1rem;
-  font-weight: 600;
   line-height: 1.375em;
   margin-top: 0.9375em;
 }
@@ -446,11 +393,7 @@
   padding-top: 6.125rem;
 }
 .popular__title {
-  color: #0c3653;
   font-family: "Slabo 27px", serif;
-  font-size: 2.25rem;
-  font-weight: 700;
-  line-height: 1.27em;
   text-align: center;
   margin-bottom: 1.38em;
 }
@@ -495,11 +438,7 @@
   padding-bottom: 5.375rem;
 }
 .footer__title {
-  color: #0c3653;
   font-family: "Slabo 27px", serif;
-  font-size: 2.25rem;
-  font-weight: 700;
-  line-height: 1.27em;
   margin-bottom: 1.58em;
   text-align: center;
 }
@@ -562,31 +501,7 @@
   display: flex;
   align-items: flex-end;
 }
-.footer__nav {
-  font-size: 1rem;
-  width: 22.375em;
-  height: 1.3125em;
-  align-self: center;
-}
-.footer__nav__list {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.footer__nav__item {
-  list-style-type: none;
-}
-.footer__nav__item > a {
-  text-decoration: none;
-  color: #abadae;
-  font-family: Muli;
-  font-weight: 600;
-}
-.footer__nav__item--active > a {
-  color: #0a4065;
-  font-family: "Muli - Bold";
-  font-weight: 700;
-}
+
 .footer__subnav {
   display: flex;
   color: #cad2d6;
@@ -609,8 +524,6 @@
 .footer__desc {
   opacity: 0.6;
   color: #abadae;
-  font-family: Muli;
-  font-size: 1rem;
   font-weight: 400;
   margin-left: 10.3%;
   margin-bottom: 1.4375em;
