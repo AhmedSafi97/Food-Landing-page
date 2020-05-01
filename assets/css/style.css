@@ -6,6 +6,14 @@
   box-sizing: border-box;
 }
 
+/* || General */
+.title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.27em;
+  color: #0c3653;
+}
+
 .header {
   background: url("../images/bg.png");
   background-size: 100% 100%;
@@ -20,7 +28,6 @@
 .header__title {
   opacity: 0.78;
   color: #452268;
-  font-size: 2.25rem;
   font-weight: 400;
   line-height: 1.97em;
   margin-right: 3.5em;
@@ -155,11 +162,8 @@
 }
 .grilled-ribs__title {
   font-family: "Slabo 27px", serif;
-  font-size: 2.25rem;
-  font-weight: 700;
   line-height: 1.28em;
   width: 15.25em;
-  color: #0c3653;
   margin-top: 3.027em;
 }
 .grilled-ribs__desc {
@@ -199,11 +203,8 @@
 }
 .four-meals__title {
   font-family: "Slabo 27px", serif;
-  font-size: 2.25rem;
-  font-weight: 700;
   line-height: 1.28em;
   width: 15.25em;
-  color: #0c3653;
   margin-top: 3.027em;
 }
 .four-meals__desc {
@@ -296,9 +297,6 @@
   max-width: 29.527em;
   color: #ffffff;
   font-family: "Slabo 27px", serif;
-  font-size: 2.25rem;
-  font-weight: 700;
-  line-height: 1.27em;
   padding: 0 1.7em;
 }
 .story__desc {
@@ -354,11 +352,7 @@
   padding-top: 5.8125em;
 }
 .explore__title {
-  color: #0c3653;
   font-family: "Slabo 27px", serif;
-  font-size: 2.25rem;
-  font-weight: 700;
-  line-height: 1.27em;
   text-align: center;
 }
 .explore__desc {
@@ -415,7 +409,6 @@
   justify-content: space-between;
 }
 .card__title {
-  color: #0c3653;
   font-family: "Slabo 27px", serif;
   font-size: 1.125rem;
   font-weight: 700;
@@ -446,11 +439,7 @@
   padding-top: 6.125rem;
 }
 .popular__title {
-  color: #0c3653;
   font-family: "Slabo 27px", serif;
-  font-size: 2.25rem;
-  font-weight: 700;
-  line-height: 1.27em;
   text-align: center;
   margin-bottom: 1.38em;
 }
@@ -495,11 +484,7 @@
   padding-bottom: 5.375rem;
 }
 .footer__title {
-  color: #0c3653;
   font-family: "Slabo 27px", serif;
-  font-size: 2.25rem;
-  font-weight: 700;
-  line-height: 1.27em;
   margin-bottom: 1.58em;
   text-align: center;
 }
