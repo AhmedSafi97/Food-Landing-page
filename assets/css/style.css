@@ -1,10 +1,8 @@
 /* || General styles */
-
 * {
   margin: 0;
   padding: 0;
   border: none;
-  outline: none;
   box-sizing: border-box;
 }
 
@@ -64,13 +62,25 @@
   background-color: #f98169;
 }
 
+.grilled-ribs__four-meals__wrapper {
+  background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0.9108018207282913) 100%
+    ),
+    url("../images/bg2.png");
+  background-size: 100% 100%;
+  padding-top: 6.0625rem;
+}
+
+/* || header block */
 .header {
   background: url("../images/bg.png");
   background-size: 100% 100%;
   padding: 4.5% 0 11.2% 10.3%;
 }
 
-.h-nav__wrapper {
+.header__title-nav-wrapper {
   display: flex;
   flex-wrap: wrap;
 }
@@ -103,7 +113,7 @@
   padding-right: 1.6875em;
 }
 
-.h-btns__wrapper {
+.header__btns-wrapper {
   display: flex;
   margin-top: 2.1em;
 }
@@ -145,17 +155,7 @@
   clip-path: polygon(43% 39%, 43% 61%, 66% 50%);
 }
 
-.ribs-meals__wrapper {
-  background: radial-gradient(
-      circle,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(255, 255, 255, 0.9108018207282913) 100%
-    ),
-    url("../images/bg2.png");
-  background-size: 100% 100%;
-  padding-top: 6.0625rem;
-}
-
+/* || grilled ribs block*/
 .grilled-ribs {
   display: flex;
   justify-content: space-evenly;
@@ -184,6 +184,7 @@
   order: -1;
 }
 
+/* || four meals block*/
 .four-meals {
   display: flex;
   justify-content: space-evenly;
@@ -240,6 +241,7 @@
   border-radius: 0.75em;
 }
 
+/* || story block*/
 .story {
   max-width: 66.4375rem;
   margin: auto;
@@ -317,6 +319,8 @@
   line-height: 4.4375em;
   margin: auto;
 }
+
+/* || explore block*/
 .explore {
   padding-top: 5.8125em;
 }
@@ -357,10 +361,10 @@
   flex-direction: column;
   justify-self: center;
 }
-.card-info__wrapper {
+.card__info {
   padding: 1.625rem 1.25rem;
 }
-.h2-p-info__wrapper {
+.card__title-price-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -389,6 +393,8 @@
   border-radius: 13px 13px 0 0;
   order: -1;
 }
+
+/* || popular block*/
 .popular {
   padding-top: 6.125rem;
 }
@@ -397,7 +403,7 @@
   text-align: center;
   margin-bottom: 1.38em;
 }
-.popular__wrapper {
+.popular__img-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, 20rem);
   justify-content: center;
@@ -408,6 +414,8 @@
   height: 20rem;
   border-radius: 7px;
 }
+
+/* || footer block*/
 .footer {
   padding-top: 11.375rem;
   position: relative;
@@ -428,7 +436,7 @@
   border-radius: 13px;
   transform: rotate(45deg);
 }
-.h-form-footer__wrapper {
+.footer__title-form-wrapper {
   max-width: 66rem;
   box-shadow: 0 17px 16px rgba(235, 241, 245, 0.55);
   border-radius: 13px;
@@ -478,7 +486,7 @@
 .footer__form__btn::after {
   content: url("../images/Path_465.svg");
 }
-.a-nav-footer__wrapper {
+.footer__logo-nav-wrapper {
   display: flex;
   flex-wrap: wrap;
   border-top: 3px solid #f9fbfb;
@@ -528,6 +536,7 @@
   margin-left: 10.3%;
   margin-bottom: 1.4375em;
 }
+
 @media (min-width: 1800px) {
   html {
     font-size: 18px;
