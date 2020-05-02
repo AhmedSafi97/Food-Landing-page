@@ -1,4 +1,5 @@
 /* || General styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +15,7 @@
 }
 
 /*Stands for description*/
+
 .desc {
   font-family: Muli;
   font-size: 1rem;
@@ -63,17 +65,13 @@
 }
 
 .grilled-ribs__four-meals__wrapper {
-  background: radial-gradient(
-      circle,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(255, 255, 255, 0.9108018207282913) 100%
-    ),
-    url("../images/bg2.png");
+  background: radial-gradient( circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.9108018207282913) 100%), url("../images/bg2.png");
   background-size: 100% 100%;
   padding-top: 6.0625rem;
 }
 
 /* || header block */
+
 .header {
   background: url("../images/bg.png");
   background-size: 100% 100%;
@@ -137,14 +135,15 @@
   border-radius: 50%;
 }
 
-.header__btn2 > span {
+.header__btn2>span {
   position: relative;
   height: 100%;
   display: block;
   clip-path: polygon(40% 35%, 40% 65%, 70% 50%);
   background-color: white;
 }
-.header__btn2 > span::after {
+
+.header__btn2>span::after {
   content: "";
   position: absolute;
   top: 0;
@@ -156,26 +155,31 @@
 }
 
 /* || grilled ribs block*/
+
 .grilled-ribs {
   display: flex;
   justify-content: space-evenly;
 }
+
 .grilled-ribs__title {
   font-family: "Slabo 27px", serif;
   line-height: 1.28em;
   width: 15.25em;
   margin-top: 3.027em;
 }
+
 .grilled-ribs__desc {
   width: 32.25em;
   color: #8b8e8f;
   margin-top: 2.0625em;
   margin-bottom: 2.9375em;
 }
+
 .grilled-ribs__btn {
   width: 14.2em;
   height: 3.88em;
 }
+
 .grilled-ribs__picture {
   width: 30.3125rem;
   height: 42.1875rem;
@@ -185,33 +189,39 @@
 }
 
 /* || four meals block*/
+
 .four-meals {
   display: flex;
   justify-content: space-evenly;
   margin-top: 0.8125rem;
 }
+
 .four-meals__title {
   font-family: "Slabo 27px", serif;
   line-height: 1.28em;
   width: 15.25em;
   margin-top: 3.027em;
 }
+
 .four-meals__desc {
   width: 32.25em;
   color: #8b8e8f;
   margin-top: 2.0625em;
   margin-bottom: 2.9375em;
 }
+
 .four-meals__btn {
   width: 14.2em;
   height: 3.88em;
 }
+
 .four-meals__grid {
   font-size: 1rem;
   display: grid;
   grid-template-columns: 4.375em 14.6878em 0.375em 0.5625em 14.625em 4.0625em;
   grid-template-rows: 7.75em 9.0625em 0.5em 2.375em 0.75em 9.0625em 6.625em;
 }
+
 .four-meals__item1 {
   grid-column: 2 / 3;
   grid-row: 2 / 5;
@@ -219,6 +229,7 @@
   height: 11.9375em;
   border-radius: 0.75em;
 }
+
 .four-meals__item2 {
   grid-column: 4 / 5;
   grid-row: 1 / 4;
@@ -226,6 +237,7 @@
   height: 16.8125em;
   border-radius: 0.75em;
 }
+
 .four-meals__item3 {
   grid-column: 1 / 3;
   grid-row: -1 / -3;
@@ -233,6 +245,7 @@
   height: 15.6875em;
   border-radius: 0.75em;
 }
+
 .four-meals__item4 {
   grid-row: 4 / 7;
   grid-column: -2 / -3;
@@ -242,6 +255,7 @@
 }
 
 /* || story block*/
+
 .story {
   max-width: 66.4375rem;
   margin: auto;
@@ -253,6 +267,7 @@
   position: relative;
   z-index: 1;
 }
+
 .story::before {
   content: " ";
   position: absolute;
@@ -277,11 +292,13 @@
   font-family: "Slabo 27px", serif;
   padding: 0 1.7em;
 }
+
 .story__desc {
   max-width: 36.0625em;
   margin: 1em auto 1.9375em auto;
   color: #ffffff;
 }
+
 .story__btn {
   cursor: pointer;
   width: 4.5625rem;
@@ -291,7 +308,7 @@
   border: 3px solid #ffffff;
 }
 
-.story__btn > span {
+.story__btn>span {
   cursor: pointer;
   position: relative;
   height: 100%;
@@ -299,7 +316,8 @@
   clip-path: polygon(35% 30%, 35% 70%, 75% 50%);
   background-color: white;
 }
-.story__btn > span::after {
+
+.story__btn>span::after {
   content: "";
   position: absolute;
   top: 0;
@@ -321,13 +339,16 @@
 }
 
 /* || explore block*/
+
 .explore {
   padding-top: 5.8125em;
 }
+
 .explore__title {
   font-family: "Slabo 27px", serif;
   text-align: center;
 }
+
 .explore__desc {
   color: #aeb2b4;
   margin: auto;
@@ -336,12 +357,14 @@
   text-align: center;
   width: 36.0625em;
 }
+
 .explore__btn {
   width: 14.16em;
   height: 3.88em;
   display: block;
   margin: 5.6em auto 0 auto;
 }
+
 .explore__grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, 20.1875rem);
@@ -361,20 +384,24 @@
   flex-direction: column;
   justify-self: center;
 }
+
 .card__info {
   padding: 1.625rem 1.25rem;
 }
+
 .card__title-price-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+
 .card__title {
   font-family: "Slabo 27px", serif;
   font-size: 1.125rem;
   font-weight: 700;
   line-height: 2.55em;
 }
+
 .card__price {
   color: #f98169;
   font-family: "Slabo 27px", serif;
@@ -382,11 +409,13 @@
   font-weight: 700;
   line-height: 1.84em;
 }
+
 .card__desc {
   color: #aeb2b4;
   line-height: 1.375em;
   margin-top: 0.9375em;
 }
+
 .card__img {
   width: 20.1875rem;
   height: 14.125rem;
@@ -395,20 +424,24 @@
 }
 
 /* || popular block*/
+
 .popular {
   padding-top: 6.125rem;
 }
+
 .popular__title {
   font-family: "Slabo 27px", serif;
   text-align: center;
   margin-bottom: 1.38em;
 }
+
 .popular__img-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, 20rem);
   justify-content: center;
   grid-gap: 1rem;
 }
+
 .popular__img {
   width: 20rem;
   height: 20rem;
@@ -416,11 +449,13 @@
 }
 
 /* || footer block*/
+
 .footer {
   padding-top: 11.375rem;
   position: relative;
   overflow: hidden;
 }
+
 .footer::after {
   content: " ";
   position: absolute;
@@ -436,6 +471,7 @@
   border-radius: 13px;
   transform: rotate(45deg);
 }
+
 .footer__title-form-wrapper {
   max-width: 66rem;
   box-shadow: 0 17px 16px rgba(235, 241, 245, 0.55);
@@ -445,11 +481,13 @@
   padding-top: 3.3125rem;
   padding-bottom: 5.375rem;
 }
+
 .footer__title {
   font-family: "Slabo 27px", serif;
   margin-bottom: 1.58em;
   text-align: center;
 }
+
 .footer__form {
   max-width: 47rem;
   height: 5.875rem;
@@ -458,6 +496,7 @@
   display: flex;
   margin: auto;
 }
+
 .footer__form__input {
   width: 65%;
   height: 100%;
@@ -470,6 +509,7 @@
   line-height: 1.9em;
   padding: 1.29em;
 }
+
 .footer__form__btn {
   width: 35%;
   height: 100%;
@@ -483,9 +523,11 @@
   display: flex;
   justify-content: center;
 }
+
 .footer__form__btn::after {
   content: url("../images/Path_465.svg");
 }
+
 .footer__logo-nav-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -497,6 +539,7 @@
   margin-right: 10.3%;
   padding: 0.5rem 0 0.5rem 2rem;
 }
+
 .footer_logo {
   opacity: 0.78;
   color: #452268;
@@ -520,15 +563,19 @@
   margin-bottom: 3.85em;
   padding: 0.4em 0 0.4em 1.6em;
 }
+
 .footer__subnav__item {
   list-style: none;
 }
-.footer__subnav__item > a {
+
+.footer__subnav__item>a {
   color: #abadae;
 }
-.footer__subnav__item--active > a {
+
+.footer__subnav__item--active>a {
   color: #0b314b;
 }
+
 .footer__desc {
   opacity: 0.6;
   color: #abadae;
@@ -561,12 +608,7 @@
     font-size: 12px;
   }
   .header {
-    background: linear-gradient(
-        to right,
-        rgba(255, 255, 255, 0),
-        rgb(245, 242, 235)
-      ),
-      url(../images/bg.png);
+    background: linear-gradient( to right, rgba(255, 255, 255, 0), rgb(245, 242, 235)), url(../images/bg.png);
     background-size: 100% 100%;
   }
   .grilled-ribs {
@@ -582,16 +624,13 @@
   html {
     font-size: 10px;
   }
-
   .header {
     padding-left: 5%;
   }
-
   .header__desc-main {
     font-size: 3rem;
     width: 100%;
   }
-
   .header__desc-sub {
     width: 100%;
   }
@@ -612,6 +651,7 @@
     width: 34rem;
   }
 }
+
 @media (max-width: 360px) {
   html {
     font-size: 9px;
