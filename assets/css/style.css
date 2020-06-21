@@ -488,13 +488,12 @@
 }
 
 .footer__title-form-wrapper {
-  max-width: 66rem;
+  width: min(calc(100% - 8vw), 66rem);
   box-shadow: 0 17px 16px rgba(235, 241, 245, 0.55);
   border-radius: 13px;
   background-color: #ffffff;
   margin: auto;
-  padding-top: 3.3125rem;
-  padding-bottom: 5.375rem;
+  padding: 4vw 0 6vw;
 }
 
 .footer__title {
@@ -504,8 +503,7 @@
 }
 
 .footer__form {
-  max-width: 47rem;
-  height: 5.875rem;
+  width: min(calc(100% - 5vw), 47rem);
   border-radius: 13px;
   background-color: #f9fbfb;
   display: flex;
@@ -544,7 +542,7 @@
   width: 1.5rem;
   height: 1.5rem;
   background: url("../images/Path_465.svg");
-  background-size: contain;
+  background-size: cover;
 }
 
 .footer__logo-nav-wrapper {
@@ -666,9 +664,6 @@
     margin-left: 0;
     margin-right: 0;
   }
-  .footer__form {
-    width: 34rem;
-  }
 }
 
 @media (max-width: 360px) {
@@ -677,8 +672,5 @@
   }
   .four-meals__grid {
     font-size: 0.9rem;
-  }
-  .footer__form {
-    width: 32rem;
   }
 }
