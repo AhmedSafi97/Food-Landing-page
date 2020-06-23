@@ -89,45 +89,49 @@
 
 .header {
   background: url("../images/bg.png");
-  background-size: 100% 100%;
-  padding: 4.5% 0 11.2% 10.3%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding: 5vw;
 }
 
 .header__title-nav-wrapper {
   display: flex;
   flex-wrap: wrap;
+  width: calc(100% - 26vw);
 }
 
 .header__title {
   opacity: 0.78;
   font-weight: 400;
-  line-height: 1.97em;
+  line-height: 1.85em;
   margin-right: 3.5em;
-  height: 1.527em;
+  height: 1.5em;
   display: flex;
   align-items: flex-end;
 }
 
 .header__desc-main {
   color: #255a7e;
-  font-size: 3.5625rem;
+  font-size: 3.5rem;
   font-weight: 300;
-  line-height: 1.175em;
-  width: 12.263em;
-  margin-top: 3.25em;
+  line-height: 1.2em;
+  width: min(calc(100% - 8vw), 12em);
+  margin-top: 2.5em;
   padding-right: 1em;
 }
 
 .header__desc-sub {
   color: #0c3653;
   opacity: 0.71;
-  width: 37.2em;
-  margin-top: 1.1875em;
-  padding-right: 1.6875em;
+  width: min(calc(100% - 8vw), 37em);
+  margin-top: 1.2em;
+  padding-right: 1.7em;
 }
 
 .header__btns-wrapper {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 2.1em;
 }
 
@@ -642,10 +646,6 @@
   html {
     font-size: 12px;
   }
-  .header {
-    background: linear-gradient( to right, rgba(255, 255, 255, 0), rgb(245, 242, 235)), url(../images/bg.png);
-    background-size: 100% 100%;
-  }
   .grilled-ribs {
     flex-direction: column;
     align-items: center;
@@ -655,19 +655,6 @@
 @media (max-width: 600px) {
   html {
     font-size: 10px;
-  }
-  .header {
-    padding-left: 5%;
-  }
-  .header__desc-main {
-    font-size: 3rem;
-    width: 100%;
-  }
-  .header__desc-sub {
-    width: 100%;
-  }
-  .header__btn1 {
-    width: 120px;
   }
   .story {
     border-radius: 0;
