@@ -599,9 +599,29 @@
   margin-bottom: 1.4375em;
 }
 
-@media (min-width: 1800px) {
+/* || media query */
+
+@media screen and (min-width: 1500px) {
   html {
-    font-size: 18px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  html {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 2100px) {
+  html {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 2400px) {
+  html {
+    font-size: 26px;
   }
 }
 
