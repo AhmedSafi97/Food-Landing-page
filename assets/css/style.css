@@ -78,7 +78,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: url("../images/bg2.png");
+  background: url("../images/bg2.jpg");
   background-size: cover;
   background-position: center;
   opacity: 0.06;
@@ -88,7 +88,7 @@
 /* || header block */
 
 .header {
-  background: url("../images/bg.png");
+  background: url("../images/bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -154,7 +154,7 @@
   border-radius: 50%;
 }
 
-.header__btn2>span {
+.header__btn2 > span {
   position: relative;
   height: 100%;
   display: block;
@@ -162,7 +162,7 @@
   background-color: white;
 }
 
-.header__btn2>span::after {
+.header__btn2 > span::after {
   content: "";
   position: absolute;
   top: 0;
@@ -327,7 +327,7 @@
   border: 3px solid #ffffff;
 }
 
-.story__btn>span {
+.story__btn > span {
   cursor: pointer;
   position: relative;
   height: 100%;
@@ -336,7 +336,7 @@
   background-color: white;
 }
 
-.story__btn>span::after {
+.story__btn > span::after {
   content: "";
   position: absolute;
   top: 0;
@@ -540,7 +540,7 @@
 }
 
 .footer__form__btn::after {
-  content: '';
+  content: "";
   width: 1.5rem;
   height: 1.5rem;
   background: url("../images/Path_465.svg");
@@ -587,11 +587,11 @@
   list-style: none;
 }
 
-.footer__subnav__item>a {
+.footer__subnav__item > a {
   color: #abadae;
 }
 
-.footer__subnav__item--active>a {
+.footer__subnav__item--active > a {
   color: #0b314b;
 }
 
